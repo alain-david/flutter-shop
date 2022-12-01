@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import 'package:shop/src/share_prefs/preferencias_usuario.dart';
-import 'package:shop/src/theme/theme.dart';
+import '../share_prefs/preferencias_usuario.dart';
+import '../theme/theme.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({Key? key}) : super(key: key);

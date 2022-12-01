@@ -1,4 +1,4 @@
-import 'package:shop/src/providers/users_provider.dart';
+import '../providers/users_provider.dart';
 
 final users = UsersProvider();
 

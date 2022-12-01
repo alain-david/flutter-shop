@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shop/src/share_prefs/preferencias_usuario.dart';
+import '../share_prefs/preferencias_usuario.dart';
 
 class CategoriasWidget extends StatelessWidget {
   CategoriasWidget({Key? key}) : super(key: key);

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import 'package:shop/src/share_prefs/preferencias_usuario.dart';
-import 'package:shop/src/widgets/categorias_widget.dart';
-import 'package:shop/src/widgets/productos_widget.dart';
-import 'package:shop/src/theme/theme.dart';
+import '../share_prefs/preferencias_usuario.dart';
+import '../widgets/categorias_widget.dart';
+import '../widgets/productos_widget.dart';
+import '../theme/theme.dart';
 
 class InicioPage extends StatefulWidget {
   const InicioPage({Key? key}) : super(key: key);

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:shop/src/models/producto_model.dart';
+
+import '../models/producto_model.dart';
 
 class ProductosWidget extends StatelessWidget {
   ProductosWidget({Key? key}) : super(key: key);

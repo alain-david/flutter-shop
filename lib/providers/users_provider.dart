@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
-import 'package:shop/src/models/user_model.dart';
+
+import '../models/user_model.dart';
 
 class UsersProvider {
   final String _url = 'la-tisa-shop-default-rtdb.firebaseio.com';

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import 'package:shop/src/providers/productos_provider.dart';
-import 'package:shop/src/theme/theme.dart';
+import '../providers/productos_provider.dart';
+import '../theme/theme.dart';
 
 class DataPage extends StatelessWidget {
   DataPage({Key? key}) : super(key: key);

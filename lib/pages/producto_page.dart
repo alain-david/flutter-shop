@@ -2,14 +2,13 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-
-import 'package:shop/src/models/producto_model.dart';
-import 'package:shop/src/providers/productos_provider.dart';
-import 'package:shop/src/share_prefs/preferencias_usuario.dart';
-import 'package:shop/src/theme/theme.dart';
-
-import 'package:shop/src/utils/validators.dart' as utils;
 import 'package:image_picker/image_picker.dart';
+
+import '../models/producto_model.dart';
+import '../providers/productos_provider.dart';
+import '../share_prefs/preferencias_usuario.dart';
+import '../theme/theme.dart';
+import '../utils/validators.dart' as utils;
 
 class ProductoPage extends StatefulWidget {
   const ProductoPage({Key? key}) : super(key: key);

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'package:shop/src/models/producto_model.dart';
-import 'package:shop/src/providers/productos_provider.dart';
+import '../models/producto_model.dart';
+import '../providers/productos_provider.dart';
 
 class CategoriaPage extends StatelessWidget {
   CategoriaPage({Key? key}) : super(key: key);

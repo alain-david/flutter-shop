@@ -5,7 +5,7 @@ import 'package:http_parser/http_parser.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:mime_type/mime_type.dart';
 
-import 'package:shop/src/models/producto_model.dart';
+import '../models/producto_model.dart';
 
 class ProductosProvider {
   final String _url = '152.206.139.203:8090';

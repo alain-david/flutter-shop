@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import 'package:shop/src/pages/data_cat_page.dart';
-import 'package:shop/src/pages/categoria_page.dart';
-import 'package:shop/src/pages/detalles_page.dart';
-import 'package:shop/src/pages/home_page.dart';
-import 'package:shop/src/pages/login_page.dart';
-import 'package:shop/src/pages/producto_page.dart';
-import 'package:shop/src/theme/theme.dart';
-import 'src/share_prefs/preferencias_usuario.dart';
+import 'pages/data_cat_page.dart';
+import 'pages/categoria_page.dart';
+import 'pages/detalles_page.dart';
+import 'pages/home_page.dart';
+import 'pages/login_page.dart';
+import 'pages/producto_page.dart';
+import 'theme/theme.dart';
+import 'share_prefs/preferencias_usuario.dart';
 
 void main() async {
 // Cargar preferencias de usuarios antes de ejecutar el runApp()
